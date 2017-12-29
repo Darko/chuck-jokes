@@ -1,0 +1,44 @@
+body,
+body.md-theme-default {
+  font-family: 'Helvetica', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(black, 0.87) !important;
+  line-height: 1.1 !important;
+  text-rendering: geometricPrecision;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.page-title {
+  margin: 24px 0 16px 0;
+  text-transform: capitalize;
+}

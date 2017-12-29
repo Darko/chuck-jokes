@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: color($colors, primary) !important;
+  overflow: hidden;
+
+  @media screen and (max-width: 375px) {
+    padding: 8px;
+  }
+}
+
+.layout-padding {
+  padding: 16px;
+
+  &-8 {
+    padding: 8px;
+  }
+
+  &-horizontal {
+    padding-left: 16px;
+    padding-right: 16px;
+
+    &-8 {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    &-16 {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+
+  &-vertical {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    &-8 {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  }
+}
+
+.md-align-space-around {
+  justify-content: space-around;
+}

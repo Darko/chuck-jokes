@@ -1,0 +1,13 @@
+$colors: (
+  primary:  rgba(80, 100, 190, 1),
+  youtube: #e91e63
+);
+
+@function color($collection, $key) {
+  @if map-has-key($collection, $key) {
+    @return map-get($collection, $key);
+  }
+
+  @warn "Unknown `#{$key}` in $collection.";
+  @return null;
+}
